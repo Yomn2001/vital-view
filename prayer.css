@@ -1,0 +1,106 @@
+/* Importing Google Fonts - Allura and Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(145deg, #c8c0f2, #bedaf3); /* Periwinkle background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* Space between the links */
+}
+
+.nav-link {
+    color: #7E57C2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #673AB7;
+}
+
+header {
+    position: absolute;
+    top: 150px;
+    left: 540px;
+}
+
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Allura', cursive; /* Allura font for the main title */
+    font-size: 2.5rem;
+    color: #7E57C2;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; /* Sans-serif font for labels */
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif; /* Sans-serif font for input fields */
+}
+
+button {
+    background-color: #7E57C2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; /* Sans-serif font for button */
+}
+
+button:hover {
+    background-color: #673AB7;
+}
+
+#prayerList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif; /* Sans-serif font for list */
+}
+
+#prayerList li {
+    background-color: #EFEFEF;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+#reminderMessage {
+    margin-top: 15px;
+    color: #d32f2f;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}

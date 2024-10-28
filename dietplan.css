@@ -1,0 +1,101 @@
+/* Importing Google Font - Allura */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif; /* Set to a bold sans-serif font */
+    background: linear-gradient(145deg, #c8c0f2, #bedaf3); /* Periwinkle background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Navigation styling */
+header {
+    position: absolute; /* Position the header absolutely */
+    top: 50px; /* Set distance from the top */
+    left: 590px; /* Set distance from the left */
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* Space between the links */
+}
+
+.nav-link {
+    font-family: 'Arial', sans-serif; /* Bold sans-serif font */
+    font-weight: bold; /* Bold text */
+    color: #7E57C2;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #673AB7;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h1 {
+    font-family: 'Allura', cursive; /* Allura for headings */
+    color: #8c7ae6;
+    font-size: 36px;
+}
+
+label {
+    font-family: sans-serif; /* Sans-serif for labels */
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: sans-serif; /* Sans-serif for inputs */
+}
+
+button {
+    padding: 10px 20px;
+    background-color:  #8c7ae6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: sans-serif; /* Sans-serif for buttons */
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #6d67b5;
+}
+
+#result-section {
+    margin-top: 20px;
+    display: none;
+}
+
+h2 {
+    font-family: 'Allura', cursive; /* Allura for result heading */
+    color: #3ea0ef;
+}
+
+#diet-plan {
+    font-family: sans-serif; /* Sans-serif for diet plan text */
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}

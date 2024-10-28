@@ -1,0 +1,104 @@
+/* Importing Google Fonts - Allura and Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(145deg, #c8c0f2, #bedaf3); /* Soft pastel gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* Space between the links */
+}
+
+.nav-link {
+    color: #7E57C2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #673AB7;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Allura', cursive; /* Allura font for titles */
+    font-size: 2.5rem;
+    color: #7E57C2; /* Soft purple for titles */
+}
+
+header {
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #555;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+select, input[type="time"], button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    background-color: #7E57C2;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    background-color: #673AB7;
+}
+
+#remindersList {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+}
+
+#remindersList li {
+    background-color: #EFEFEF;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#notification {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+}

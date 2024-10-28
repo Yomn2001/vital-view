@@ -1,0 +1,72 @@
+/* Importing Google Font - Allura */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+/* Basic page setup */
+body {
+    font-family: 'Arial', sans-serif; /* Set to a bold sans-serif font */
+    background: rgba(255, 255, 255, 0.8);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Navigation styling */
+header {
+    position: absolute; /* Position the header absolutely */
+    top: 80px; /* Set distance from the top */
+    left: 590px; /* Set distance from the left */
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* Space between the links */
+}
+
+.nav-link {
+    font-family: 'Arial', sans-serif; /* Bold sans-serif font */
+    font-weight: bold; /* Bold text */
+    color: #7E57C2;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #673AB7;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85); /* Slightly more transparent background */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Title styling */
+.title {
+    font-size: 42px;
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Allura', cursive;
+}
+
+.category-box {
+    font-size: 28px;
+    color: #fff; /* White text for better contrast */
+    background: linear-gradient(135deg, #e0bbf4, #9575cd); /* Gradient from pink to purple */
+    padding: 20px;
+    border-radius: 25px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-family: 'Allura', cursive;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+.category-box:hover {
+    background-color: #9575cd; /* Darker pastel purple on hover */
+    transform: scale(1.05); /* Slight grow effect on hover */
+}

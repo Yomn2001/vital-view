@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Tracker</title>
+    <link rel="stylesheet" href="calorietracker.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="javascript:history.back()" class="nav-link">Back</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Calorie Tracker</h1>
+        <div class="input-section">
+            <label for="foodItem">Food Item:</label>
+            <input type="text" id="foodItem" placeholder="Enter food item" required />
+            
+            <button id="checkCalories">Check Calories</button>
+            <button id="resetTracker">Reset Tracker</button>
+        </div>
+
+        <div class="output">
+            <h3>Calories in <span id="foodDisplay"></span>: <span id="calorieCount">0</span> calories</h3>
+        </div>
+    </div>
+
+    <script src="calorietracker.js"></script>
+</body>
+</html>

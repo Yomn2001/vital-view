@@ -1,0 +1,94 @@
+/* Importing Allura font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sans-Serif', Arial, sans-serif;
+    background: linear-gradient(120deg, rgba(224, 176, 255, 0.8), rgba(187, 222, 251, 0.8)); /* Light lavender and blue gradient */
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    position: absolute; /* Position the header absolutely */
+    top: 60px; /* Distance from the top */
+    left: 580px; /* Distance from the left */
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* Space between the links */
+}
+
+.nav-link {
+    color: #7E57C2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #673AB7;
+}
+
+/* Main container styling */
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Increased shadow for depth */
+    text-align: center;
+    width: 350px;
+    margin-top: 130px; /* Add margin to push the container down */
+}
+
+h1 {
+    font-family: 'Allura', cursive; /* Using Allura font for the title */
+    color: #6f2c91; /* Softer deep purple for the heading */
+    font-size: 36px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #7d25b3; /* Matching color of the heading */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Light border for inputs */
+    border-radius: 10px;
+    font-family: 'Sans-Serif', Arial, sans-serif;
+}
+
+button {
+    padding: 10px;
+    background-color: #cf90f9; /* Light purple button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    width: 120px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #ae48fc; /* Darker purple on hover */
+}
+
+.output h3 {
+    margin: 10px 0;
+    color: #af54ff; /* Softer purple for output headings */
+}

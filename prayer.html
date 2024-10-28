@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Time App</title>
+    <link rel="stylesheet" href="prayer.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="javascript:history.back()" class="nav-link">Back</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h1>Prayer Times</h1>
+        <label for="city">City:</label>
+        <input type="text" id="city" placeholder="Enter your city">
+        <label for="country">Country:</label>
+        <input type="text" id="country" placeholder="Enter your country">
+        <button onclick="fetchPrayerTimes()">Get Prayer Times</button>
+        <ul id="prayerList"></ul>
+        <div id="reminderMessage"></div>
+    </div>
+    <script src="prayer.js"></script>
+</body>
+</html>
+

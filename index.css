@@ -1,0 +1,98 @@
+/* Basic page setup */
+body {
+    font-family: 'Allura', cursive, sans-serif;
+    background: linear-gradient(to bottom right, #d7e3fc, #f3d1f4, #e0c3fc);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling */
+.logo {
+    width: 100px; /* Adjust the width as necessary */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto 20px; /* Center the logo with space below */
+    display: block; /* Makes the image block-level for centering */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow effect */
+}
+
+/* Title styling */
+h1 {
+    font-size: 36px;
+    color: #4a4e69;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid layout for squares */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Space between squares */
+    margin-bottom: 30px; /* Space between grid and quote */
+}
+
+/* Styling for squares */
+.square {
+    background: linear-gradient(145deg, #e3d9fa, #f1defa, #c5d3fb);
+    color: #4a4e69;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.square:hover {
+    background: linear-gradient(145deg, #c6b9f0, #dec9f8, #c8ccfa);
+    transform: translateY(-5px);
+}
+
+/* Styling for the quote section */
+.quote {
+    background: linear-gradient(145deg, #ffe0e7, #fddde6, #f3c1f4);
+    color: #4a4e69;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.quote-text {
+    font-size: 26px;
+    margin: 0;
+    color: #6b728e;
+}
+
+.quote-subtext {
+    font-size: 18px;
+    margin: 0;
+    color: #807d9e;
+    font-style: italic;
+}
+
+/* Additional styles for category pages (optional) */
+.category-title {
+    font-size: 32px;
+    color: #4a4e69;
+    margin: 20px 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.category-content {
+    font-size: 18px;
+    color: #6b728e;
+    margin: 10px 0;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcasts</title>
+    <link rel="stylesheet" href="podcasts.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="javascript:history.back()" class="nav-link">Back</a>
+        </nav>
+        <h1></h1>
+    </header>
+    <main id="episode-list">
+        <section class="episode" data-title="The Beginning">
+            <h2>Episode 1: The Beginning</h2>
+            <p>Date: October 1, 2024</p>
+            <p>Description: Discussing the origins of our podcast and what inspired us to start.</p>
+            <a href="https://example.com/episode1.mp3" class="listen-button" data-audio="https://example.com/episode1.mp3">Listen Now</a>
+        </section>
+        <section class="episode" data-title="The Journey">
+            <h2>Episode 2: The Journey</h2>
+            <p>Date: October 8, 2024</p>
+            <p>Description: Diving into our journey, the challenges we faced, and how we overcame them.</p>
+            <a href="https://example.com/episode2.mp3" class="listen-button" data-audio="https://example.com/episode2.mp3">Listen Now</a>
+        </section>
+        <section class="episode" data-title="The Future">
+            <h2>Episode 3: The Future</h2>
+            <p>Date: October 15, 2024</p>
+            <p>Description: Our vision for the future and what listeners can expect.</p>
+            <a href="https://example.com/episode3.mp3" class="listen-button" data-audio="https://example.com/episode3.mp3">Listen Now</a>
+        </section>
+    </main>
+    <audio id="audio-player" controls style="display:none;"></audio>
+    <script src="podcasts.js"></script>
+</body>
+</html>

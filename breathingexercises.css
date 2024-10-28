@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+body {
+    font-family: 'Allura', cursive, sans-serif;
+    background: linear-gradient(135deg, #d0e1f9, #e1ccec); /* Soft pastel gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Navigation styling */
+header {
+    position: absolute;
+    top: 60px;
+    left: 580px;
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* Space between the links */
+}
+
+.nav-link {
+    font-family: 'Sans-Serif', Arial, sans-serif; /* Sans-serif font */
+    font-weight: bold; /* Bold text */
+    color: #7E57C2;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #673AB7;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+h1 {
+    font-size: 48px;
+    color: #6a1b9a; /* Deep lavender for the heading */
+    margin-bottom: 20px;
+}
+
+#exercise-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#circle {
+    width: 150px;
+    height: 150px;
+    background-color: #b39ddb; /* Pastel purple circle */
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: width 4s, height 4s, background-color 4s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+p {
+    font-size: 24px;
+    color: #004d40; /* Deep teal for text */
+    margin-top: 15px;
+}
+
+button {
+    background-color: #9575cd; /* Calming lavender */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #ab47bc; /* Slightly darker purple on hover */
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}

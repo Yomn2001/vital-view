@@ -1,0 +1,96 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(145deg, #d0c9f7, #c8e1f7);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+header {
+    position: absolute;
+    top: 50px;
+    left: 590px;
+}
+
+
+header h1 {
+    font-family: 'Allura', cursive;
+    font-size: 2.5em; /* Increased font size */
+    flex-grow: 1;
+    text-align: center;
+    margin-top: 10px; /* Added top margin to align better */
+    margin-left: -100px; /* Adjust left margin for better centering */
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0 10px;
+}
+
+main {
+    width: 90%;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    max-height: calc(100vh - 150px);
+    margin-top: 20px;
+}
+
+.episode {
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    text-align: center; /* Center align the episode content */
+}
+
+.episode h2 {
+    color: #a03b6b;
+    font-family: 'Allura', cursive;
+}
+
+.listen-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #a4c8e1;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.listen-button:hover {
+    background: #d4a3e0;
+}
+
+footer {
+    background: linear-gradient(135deg, #a4c8e1, #d4a3e0);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,115 @@
+/* Importing Google Fonts - Allura and Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Primary font is sans-serif for readability */
+    background: linear-gradient(145deg, #c8c0f2, #bedaf3); /* Periwinkle background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 15px; /* Space between the links */
+}
+
+.nav-link {
+    color: #7E57C2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.nav-link:hover {
+    color: #673AB7;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Allura', cursive; /* Allura font for main title */
+    font-size: 2.5rem;
+    color: #7E57C2;
+}
+header {
+    position: absolute;
+    top: 70px;
+    left: 530px;
+}
+
+h2 {
+    font-family: 'Allura', cursive; /* Allura font for secondary headers */
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; /* Sans-serif for form labels */
+}
+
+input[type="text"],
+input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Roboto', sans-serif; /* Sans-serif for input fields */
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #7E57C2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif; /* Sans-serif for button */
+}
+
+button:hover {
+    background-color: #673AB7;
+}
+
+#medicationList {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif; /* Sans-serif for list */
+}
+
+.medication-item {
+    background-color: #EFEFEF;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif; /* Sans-serif for medication items */
+}
+
+.delete-button {
+    color: #FF6347;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: bold;
+}
